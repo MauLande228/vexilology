@@ -1,0 +1,13 @@
+<h1 class="header">Know your flags at your own pace</h1>
+<div id="world-flags" class="container-lg">
+    <div class="row">
+        <div *ngFor="let flag of flags" class="col-sm">
+            <div class="card card-border mb-5" style="width: 20rem;">
+                <img [src]="flag.path" class="card-img-top" alt="..." height="180">
+                <div class="card-body">
+                  <p class="card-text">{{flag.name}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

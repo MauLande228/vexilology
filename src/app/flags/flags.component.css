@@ -1,0 +1,25 @@
+#world-flags {
+  background-repeat: repeat-x;
+  background-size: 75%;
+  margin-top: -20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.card-border {
+  border: solid 10px #eee;
+  border-radius: 20px;
+  margin-top: 50px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+.card-border:hover {
+  transform: scale(1.05);
+}
+
+.card-body{
+    background-color: #eee !important;
+    text-align: center !important;
+}
