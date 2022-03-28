@@ -3,7 +3,9 @@
         <img [src]="countryPath" height="180">
     </div>
     <input type="text" [(ngModel)]="playerGuess" placeholder="Enter country name">
+    <button (click)="validateChoice()">Check</button>
     <button (click)="nextFlag()">Next flag</button>
-    <h1 *ngIf="playerGuess && playerGuess==countryName">Correct Guess!!</h1>
+    <h1>{{stateMessage}}</h1>
+    <p>{{totalFlags}} / 51</p>
 </div>
 
