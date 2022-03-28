@@ -3,8 +3,8 @@
         <img [src]="countryPath" height="180">
     </div>
     <input type="text" [(ngModel)]="playerGuess" placeholder="Enter country name">
-    <button (click)="validateChoice()">Check</button>
-    <button (click)="nextFlag()">Next flag</button>
+    <button class="check" (click)="validateChoice()">Check</button>
+    <button class="next" (click)="nextFlag()">Next flag</button>
     <h1>{{stateMessage}}</h1>
     <p>{{totalFlags}} / 51</p>
 </div>
